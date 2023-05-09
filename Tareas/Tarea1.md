@@ -2,9 +2,9 @@
 
 ## **Parte 1: Elección de Base de datos**
 
-<p align="justify">Tras la evaluación de diversas bases de datos, se elige el dataset CCS por Jan Motl ([db](https://relational.fit.cvut.cz/dataset/CCS)), encontrada en la página _Relational Dataset Repository_ y con fuente origen de github.com. Esta base de datos contiene datos transaccionales reales de una empresa de tarjetas de débito checa especializada en pagos en surtidores de gasolina.</p>
+Tras la evaluación de diversas bases de datos, se elige el dataset CCS por Jan Motl ([db](https://relational.fit.cvut.cz/dataset/CCS)), encontrada en la página _Relational Dataset Repository_ y con fuente origen de github.com. Esta base de datos contiene datos transaccionales reales de una empresa de tarjetas de débito checa especializada en pagos en surtidores de gasolina.
 
-<p align="justify">Está compuesta por 6 tablas, las cuales suman un total de 29 columnas y 422,868 filas. Los tipos de dato pueden ser numéricos, cadenas o temporales, tal como se muestra a continuación:</p>
+Está compuesta por 6 tablas, las cuales suman un total de 29 columnas y 422,868 filas. Los tipos de dato pueden ser numéricos, cadenas o temporales, tal como se muestra a continuación:
 
 
 |  yearmonth| |
@@ -54,13 +54,13 @@
 |Amount |› int|
 |Price |› decimal|
 
-<p align="justify">Como es posible observar, las tablas se pueden relacionar a través de los campos CustomerID, ProductID y GasStationID para analizar las transacciones y consumo en productos de los clientes. </p>
+Como es posible observar, las tablas se pueden relacionar a través de los campos CustomerID, ProductID y GasStationID para analizar las transacciones y consumo en productos de los clientes.
 
 ## **Parte 2: Investigación y Elección de SGBD**
 
 ### **Investigación.**
 
-<p align="justify">Un Sistema Gestor de Base de Datos (SGBD o DBMS por sus siglas en inglés) es una herramienta a través de la cual se crean, gestionan y administran bases de datos para que el almacenamiento y consulta de información sea más eficiente.</p>
+Un Sistema Gestor de Base de Datos (SGBD o DBMS por sus siglas en inglés) es una herramienta a través de la cual se crean, gestionan y administran bases de datos para que el almacenamiento y consulta de información sea más eficiente.
 
  Existen diversos SGBD, los cuales difieren en la forma en que se estructuran los datos, tal como se menciona a continuación ([1](https://universidadeuropea.com/blog/para-que-sirve-gestor-base-datos/#:~:text=Un%20sistema%20gestor%20de%20bases,en%20la%20base%20de%20datos)): 
 
@@ -68,7 +68,7 @@
 ◊ Modelo **jerárquico**: _Los datos se organizan en relaciones padre-hijo siguiendo una estructura similar a la de un árbol._  
 ◊ Modelo de **red**: _La información se estructura en forma de red con relaciones complejas y se pueden seguir diferentes caminos para rastrear cada registro._  
 ◊ Modelo **orientado a objetos**: _No solo se tiene en cuenta la relación entre los registros de datos, sino también la herencia, tal que los objetos pueden transferir algunos de sus atributos a otros._  
-◊ Modelo **orientado a documentos**: _Permite almacenar los registros en diferentes documentos._ </p> 
+◊ Modelo **orientado a documentos**: _Permite almacenar los registros en diferentes documentos._ 
 
 Entre los SGBD relacionales se encuentran los siguientes ([5](https://www.inesem.es/revistadigital/informatica-y-tics/los-gestores-de-bases-de-datos-mas-usados/)):
 
@@ -84,11 +84,11 @@ Entre los SGBD relacionales se encuentran los siguientes ([5](https://www.inesem
 
 ### **Elección del SGBD para el curso.**
 
-<p align="justify">Una vez analizadas las ventajas y desventajas de cada uno de los SGBD relacionales más utilizados, se prefiere trabajar con MySQL durante el curso ya que cuenta con las funcionalidades necesarias para cumplir el objetivo del curso. Es suficiente, fácil de instalar y configurar, además que para el curso no se requiere un sistema de alta potencia que consuma gran cantidad de memoria, pues el volumen de las bases de datos seleccionadas no es grande.</p>
+Una vez analizadas las ventajas y desventajas de cada uno de los SGBD relacionales más utilizados, se prefiere trabajar con MySQL durante el curso ya que cuenta con las funcionalidades necesarias para cumplir el objetivo del curso. Es suficiente, fácil de instalar y configurar, además que para el curso no se requiere un sistema de alta potencia que consuma gran cantidad de memoria, pues el volumen de las bases de datos seleccionadas no es grande.
 
 #### **Descripción de MySQL.**
 
-<p align="justify">MySQL es el SGBD relacional más extendido en la actualidad, con una doble licencia – es de código abierto pero también cuenta con una versión comercial gestionada por Oracle. Se ofrece bajo la GNU GPL pero desde la compra de Oracle se está orientando al ámbito empresarial y ya es posible adquirir una licencia para empresas que deseen incorporarlo en productos privativos. </p>
+MySQL es el SGBD relacional más extendido en la actualidad, con una doble licencia – es de código abierto pero también cuenta con una versión comercial gestionada por Oracle. Se ofrece bajo la GNU GPL pero desde la compra de Oracle se está orientando al ámbito empresarial y ya es posible adquirir una licencia para empresas que deseen incorporarlo en productos privativos.
 
 ## Referencias.
 Base de datos:
