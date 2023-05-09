@@ -3,3 +3,5 @@
 
 
 ## Contenido
+
+- [Tarea 1.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea1.md)  Elección de base de datos y SGBD relacional para el curso.
