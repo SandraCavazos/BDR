@@ -1,5 +1,5 @@
-# <h1 style="text-align: center;">UANL - FCFM: Maestría en Ciencia de Datos</h1>
-### <h3 style="text-align: center;">Sandra María Cavazos Huerta</h3>
+# <p style="text-align: center;">UANL - FCFM: Maestría en Ciencia de Datos</p>
+### <p style="text-align: center;">Sandra María Cavazos Huerta</p>
 
 
-## <h2 style="text-align: center;">Contenido</h2>
+## <p style="text-align: center;">Contenido</p>
