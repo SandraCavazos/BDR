@@ -2,4 +2,4 @@
 ### <p align="center"> Sandra María Cavazos Huerta </p>
 
 
-## <p align="center"> Contenido </p>
+## Contenido
