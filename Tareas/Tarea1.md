@@ -95,7 +95,7 @@ Base de datos:
 https://relational.fit.cvut.cz/dataset/CCS
 
 Investigación:
-1.	https://universidadeuropea.com/blog/para-que-sirve-gestor-base-datos/#:~:text=Un%20sistema%20gestor%20de%20bases,en%20la%20base%20de%20datos.
+1.	https://universidadeuropea.com/blog/para-que-sirve-gestor-base-datos/
 2.	https://codigosql.top/ventajas-y-desventajas-de-mysql/
 3.	https://codigosql.top/mariadb/ventajas-desventaja/
 4.	https://www.hostinger.mx/tutoriales/sqlite-vs-mysql-cual-es-la-diferencia
