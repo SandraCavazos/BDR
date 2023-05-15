@@ -2,7 +2,7 @@
 
 ## **Modelo Entidad-Relación de la Base de Datos elegida**
 
-Se utilizó [MySQL Workbench](https://www.mysql.com/products/workbench/) para descargar y visualizar la base de datos elegida. Se optó por omitir la tabla de "transactions" ya que está vacía, utilizando en su lugar "transactions_1k". Asimismo, se diseñó el diagrama entidad-relación con el apoyo de la herramienta [Mermaid](https://mermaid.live/), resultando de la siguiente manera:
+Se utilizó [MySQL Workbench](https://www.mysql.com/products/workbench/) para descargar y visualizar la base de datos elegida ([CCS](https://relational.fit.cvut.cz/dataset/CCS)). Se optó por omitir la tabla de "transactions" ya que está vacía, utilizando en su lugar "transactions_1k". Asimismo, se diseñó el diagrama entidad-relación con el apoyo de la herramienta [Mermaid](https://mermaid.live/), resultando de la siguiente manera:
 
 ```mermaid
 flowchart BT
@@ -18,12 +18,12 @@ flowchart BT
 
     transactions_1k---|N|r1{Intercambia}---|1|products
     products---a10([ProductID])---d10{{Entero > 0}}
-    products---a11([Description])---d11{{texto - 255 -}}
+    products---a11([Description])---d11{{"texto (255)"}}
 
     customers---|1|r2{Realizan}---|N|transactions_1k
     d12{{Entero > 0}}---a12([CustomerID])---customers
-    d13{{texto - 3 -}}---a13([Segment])---customers
-    d14{{texto - 3 -}}---a14([Currency])---customers
+    d13{{"texto (3)"}}---a13([Segment])---customers
+    d14{{"texto (3)"}}---a14([Currency])---customers
 
     customers---|1|r3{Consumen}---|N|yearmonth
     yearmonth---a15([CustomerID])---d15{{Entero > 0}}
@@ -33,6 +33,6 @@ flowchart BT
     transactions_1k---|N|r4{Efectúan}---|1|gasstations
     gasstations---a18([GasStationID])---d18{{Entero > 0}}
     gasstations---a19([ChainID])---d19{{Entero > 0}}
-    gasstations---a20([Country])---d20{{Texto - 3 -}}
-    gasstations---a21([Segment])---d21{{Texto - 3 -}}
+    gasstations---a20([Country])---d20{{"Texto (3)"}}
+    gasstations---a21([Segment])---d21{{"Texto (3)"}}
 ```
