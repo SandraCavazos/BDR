@@ -5,3 +5,4 @@
 ## Contenido
 
 - [Tarea 1.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea1.md)  Elección de base de datos y SGBD relacional para el curso.
+- [Tarea 2.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea2.md)  Modelo Entidad-Relación de la base de datos elegida.

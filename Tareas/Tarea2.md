@@ -1,6 +1,8 @@
 # **Tarea 2**
 
-## **Parte 1: Elección de Base de datos**
+## **Modelo Entidad-Relación de la Base de Datos elegida**
+
+Se utilizó [MySQL Workbench](https://www.mysql.com/products/workbench/) para descargar y visualizar la base de datos elegida. Se optó por omitir la tabla de "transactions" ya que está vacía, utilizando en su lugar "transactions_1k". Asimismo, se diseñó el diagrama entidad-relación con el apoyo de la herramienta [Mermaid](https://mermaid.live/), resultando de la siguiente manera:
 
 ```mermaid
 flowchart BT
@@ -11,8 +13,8 @@ flowchart BT
     d5{{Entero > 0}}--- a5([CardID]) --- transactions_1k
     d6{{Entero > 0}}--- a6([GasStationID])---transactions_1k
     d7{{Entero > 0}}--- a7([ProductID])---transactions_1k
-    d8{{Entero > 0}}--- a8([ProductID])---transactions_1k
-    d9{{Decimal > 0}}--- a9([ProductID])---transactions_1k
+    d8{{Entero > 0}}--- a8([Amount])---transactions_1k
+    d9{{Decimal > 0}}--- a9([Price])---transactions_1k
 
     transactions_1k---|N|r1{Intercambia}---|1|products
     products---a10([ProductID])---d10{{Entero > 0}}
