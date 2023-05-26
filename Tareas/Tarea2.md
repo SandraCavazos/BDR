@@ -16,21 +16,21 @@ flowchart BT
     d8{{Int > 0}}--- a8([Amount])---transactions_1k
     d9{{Decimal > 0}}--- a9([Price])---transactions_1k
 
-    transactions_1k---|N|r1{Intercambia}---|1|products
+    transactions_1k---|N|r1{Exchange}---|1|products
     products---a10([ProductID])---d10{{Int > 0}}
     products---a11([Description])---d11{{"String (255)"}}
 
-    customers---|1|r2{Realizan}---|N|transactions_1k
+    customers---|1|r2{Make}---|N|transactions_1k
     d12{{Int > 0}}---a12([CustomerID])---customers
     d13{{"Varchar (3)"}}---a13([Segment])---customers
     d14{{"Varchar (3)"}}---a14([Currency])---customers
 
-    customers---|1|r3{Consumen}---|N|yearmonth
+    customers---|1|r3{Consume}---|N|yearmonth
     yearmonth---a15([CustomerID])---d15{{Int > 0}}
     yearmonth---a16([Date])---d16{{Date}}
     yearmonth---a17([Consumption])---d17{{Decimal > 0}}
 
-    transactions_1k---|N|r4{Efectúan}---|1|gasstations
+    transactions_1k---|N|r4{Produce}---|1|gasstations
     gasstations---a18([GasStationID])---d18{{Int > 0}}
     gasstations---a19([ChainID])---d19{{Int > 0}}
     gasstations---a20([Country])---d20{{"Varchar (3)"}}
