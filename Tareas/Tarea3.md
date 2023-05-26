@@ -48,7 +48,7 @@ erDiagram
     }
 ```
 
-## **Parte 3: Álgebra Relacional **
+## **Parte 3: Álgebra Relacional**
 
 Se identifican cuatro operaciones que se pueden utilizar en la base de datos seleccionada para el curso:
 
