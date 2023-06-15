@@ -6,7 +6,8 @@
 
 Se busca encontrar el precio promedio de las transacciones realizadas después de las 12:00:00 del día, para ello se formula la siguiente consulta:
 
-´´´ sql
+´´´
+
 mysql> SELECT AVG(Price) FROM transactions_1k WHERE Time_t>'12:00:00';
 
 +---------------+
@@ -21,7 +22,8 @@ mysql> SELECT AVG(Price) FROM transactions_1k WHERE Time_t>'12:00:00';
 
 Se desea encontrar la cantidad máxima comprada de toda la base de transacciones, para lo cual se formula la siguiente consulta:
 
-´´´ sql
+´´´
+
 mysql> SELECT MAX(Amount) FROM transactions_1k;
 
 +-------------+
@@ -36,7 +38,7 @@ mysql> SELECT MAX(Amount) FROM transactions_1k;
 
 Se requiere encontrar el tercer cuartil entre los precios en las transacciones, se propone lo siguiente:
 
-´´´ sql
+´´´
 mysql> set @total:=(select count(Price) from transactions_1k);
 Query OK, 0 rows affected (0.01 sec)
 
@@ -61,7 +63,7 @@ mysql> SELECT Price AS "Tercer Cuartil" FROM transactions_1k ORDER BY Price ASC 
 
 Se quiere conocer cuál es el país con más gasolineras.
 
-´´´ sql
+´´´
 mysql> select Country, count(*) as "Frecuencia" from gasstations group by Country having Frecuencia=(select count(Country) as "Frecuencia" from gasstations group by Country order by Frecuencia desc limit 1);
 +---------+------------+
 | Country | Frecuencia |
