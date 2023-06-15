@@ -10,12 +10,13 @@ Se busca encontrar el precio promedio de las transacciones realizadas después d
 
 SELECT AVG(Price) FROM transactions_1k WHERE Time_t>'12:00:00';
 
-```
 +---------------+
 | AVG(Price)    |
 +---------------+
 | 25463899.3696 |
 +---------------+
+
+```
 
 2. Mínimos o máximos
 
