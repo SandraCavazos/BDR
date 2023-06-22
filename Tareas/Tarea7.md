@@ -2,7 +2,7 @@
 
 ## **Archivo SQL de consultas**
 
-Se hicieron validaciones para encontrar inconsistencias en la base de datos trabajada. El archivo Tarea7.sql(https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea7.sql) cuenta con las consultas realizadas para modificar dichas inconsistencias.
+Se hicieron validaciones para encontrar inconsistencias en la base de datos trabajada. El archivo [Tarea7.sql](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea7.sql) cuenta con las consultas realizadas para modificar dichas inconsistencias.
 
 En general, fueron correcciones mínimas, principalmente de formato y descarte de columna con información poco significante. Los cambios fueron acompañados de transacciones para verificar que el comando ejecutara lo esperado sin afectar en caso de que no fuese así.
 
