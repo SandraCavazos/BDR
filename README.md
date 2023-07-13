@@ -11,3 +11,4 @@
 - [Tarea 5.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea5.md)  Inserción de datos automática, reporte de dificultades y autoevaluación.
 - [Tarea 6.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea6.md)  Funciones de agregación.
 - [Tarea 7.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea7.md)  Inconsitencias, modificaciones y hallazgos.
+- [Tarea 8.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea7.md)  Vistas, subconsultas y triggers.
