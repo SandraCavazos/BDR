@@ -13,3 +13,4 @@
 - [Tarea 7.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea7.md)  Inconsitencias, modificaciones y hallazgos.
 - [Tarea 8.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea8.md)  Vistas, subconsultas y triggers.
 - [Tarea 9.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea9.md)  Stored procedures.
+- [Tarea 10.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea10.ipynb)  Conexión con Python.
