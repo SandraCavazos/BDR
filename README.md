@@ -14,3 +14,4 @@
 - [Tarea 8.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea8.md)  Vistas, subconsultas y triggers.
 - [Tarea 9.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/Tarea9.md)  Stored procedures.
 - [Tarea 10.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/tarea10.ipynb)  Conexión con Python.
+- [Proyecto final ppt.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/proyectofinal_datosgeoloc.pdf)  [Proyecto final python.](https://github.com/SandraCavazos/BDR/blob/master/Tareas/proyectofinal.ipynb)  Datos geolocalizados.
