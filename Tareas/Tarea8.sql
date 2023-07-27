@@ -93,3 +93,7 @@ BEGIN
 END //
 DELIMITER
 
+select * from tra	nsactions_1k;
+select * from products;
+select * from gasstations;
+
